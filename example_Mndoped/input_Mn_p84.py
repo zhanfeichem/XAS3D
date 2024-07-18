@@ -25,14 +25,14 @@ setting_TF_ip_conv=False# False using setting_conv_begin;True using setting_conv
 setting_conv_begin=6
 setting_conv_xip = np.linspace(6539-20+1,6539+100,239)#np.linspace(6539-20+1,6539+100,120)  #239(0.5eV)  477(0.25eV)  1191(0.1eV) 2381(0.05eV) 
 ##########TRAIN
-setting_n_ep=0
+setting_n_ep=1000
 setting_n_ep_save=200
 setting_cutoff=5.0
 setting_batch_size=32;setting_vt_batch_size=32;
 setting_n_train=32*168
 setting_n_valid=624
 ##########FITTING
-setting_maxtime=3600*10
+setting_maxtime=3600*10#3600*10
 setting_maxeval=10000*8
 setting_npar=84
 setting_opt_lower_bounds=-0.3
