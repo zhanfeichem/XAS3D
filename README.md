@@ -23,3 +23,6 @@ example_Fe3O4:    python Fit.py</br>
 example_Mndoped:  python Fit.py</br>
 First, copy the dataset from the "datasets" folder to the "example" folder, or change the dataset file location in the code.</br>
 Then run "python Fit.py"</br>
+### Hyperparameter tuning
+example_Fe3O4/Fe3O4_XAS3Dabs_hyper : python BAT_gpu_hyper.py</br>
+Run "python BAT_gpu_hyper.py" to batch submit the running scripts to the Slurm cluster.
