@@ -20,6 +20,7 @@ pip install frechetdist </br>
 #
 ## Running
 example_Fe3O4:    python Fit.py</br>
+example_Fe_element:  python Fit.py</br> 
 example_Mndoped:  python Fit.py</br>
 First, copy the dataset from the "datasets" folder to the "example" folder, or change the dataset file location in the code.</br>
 Then run "python Fit.py"</br>
